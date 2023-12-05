@@ -4,17 +4,13 @@ export default function Home() {
   const InfoCard = (
     <div className="p-4 md:p-8 rounded bg-[#25252d] w-full max-h-[85%] overflow-hidden">
       <h1 className="text-3xl md:text-4xl mb-4">
-        ▲ Next.js + LangChain.js 🦜🔗
+        ▲ AI Chatter 🦜🔗
       </h1>
       <ul>
         <li className="text-l">
           🤝
           <span className="ml-2">
-            This template showcases a simple chatbot using{" "}
-            <a href="https://js.langchain.com/" target="_blank">
-              LangChain.js
-            </a>{" "}
-            and the Vercel{" "}
+            This template showcases a simple chatbot using the Vercel{" "}
             <a href="https://sdk.vercel.ai/docs" target="_blank">
               AI SDK
             </a>{" "}
@@ -25,13 +21,13 @@ export default function Home() {
             project.
           </span>
         </li>
-        <li className="hidden text-l md:block">
+        {/* <li className="hidden text-l md:block">
           💻
           <span className="ml-2">
             You can find the prompt and model logic for this use-case in{" "}
             <code>app/api/chat/route.ts</code>.
           </span>
-        </li>
+        </li> */}
         <li>
           🏴‍☠️
           <span className="ml-2">
@@ -39,13 +35,13 @@ export default function Home() {
             the prompt to whatever you want!
           </span>
         </li>
-        <li className="hidden text-l md:block">
+        {/* <li className="hidden text-l md:block">
           🎨
           <span className="ml-2">
             The main frontend logic is found in <code>app/page.tsx</code>.
           </span>
-        </li>
-        <li className="text-l">
+        </li> */}
+        {/* <li className="text-l">
           🐙
           <span className="ml-2">
             This template is open source - you can see the source code and
@@ -58,7 +54,7 @@ export default function Home() {
             </a>
             !
           </span>
-        </li>
+        </li> */}
         <li className="text-l">
           👇
           <span className="ml-2">

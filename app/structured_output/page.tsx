@@ -11,9 +11,9 @@ export default function AgentsPage() {
           🧱
           <span className="ml-2">
             This template showcases how to output structured responses with a{" "}
-            <a href="https://js.langchain.com/" target="_blank">
+            {/* <a href="https://js.langchain.com/" target="_blank">
               LangChain.js
-            </a>{" "}
+            </a>{" "} */}
             chain and the Vercel{" "}
             <a href="https://sdk.vercel.ai/docs" target="_blank">
               AI SDK
@@ -32,13 +32,13 @@ export default function AgentsPage() {
             Functions model, then parses the output.
           </span>
         </li>
-        <li className="hidden text-l md:block">
+        {/* <li className="hidden text-l md:block">
           💻
           <span className="ml-2">
             You can find the prompt, model, and schema logic for this use-case
             in <code>app/api/chat/structured_output/route.ts</code>.
           </span>
-        </li>
+        </li> */}
         <li className="hidden text-l md:block">
           📊
           <span className="ml-2">
@@ -60,7 +60,7 @@ export default function AgentsPage() {
             too.
           </span>
         </li>
-        <li className="hidden text-l md:block">
+        {/* <li className="hidden text-l md:block">
           🎨
           <span className="ml-2">
             The main frontend logic is found in{" "}
@@ -80,7 +80,7 @@ export default function AgentsPage() {
             </a>
             !
           </span>
-        </li>
+        </li> */}
         <li className="text-l">
           👇
           <span className="ml-2">
